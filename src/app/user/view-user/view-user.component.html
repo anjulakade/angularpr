@@ -1,0 +1,36 @@
+<!-- <p>view-user works!</p> -->
+
+<table callPadding="10px" class="table table-hover">
+    <thead>
+
+<tr>
+    <th>ID</th>
+    <th>username</th>
+    <th>email</th>
+    <th>age</th>
+    <th>password</th>
+    <th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let u of users">
+   
+<td>{{u.id}}</td> 
+<td>{{u.username}}</td>
+<td>{{u.email}}</td>
+<td>{{u.age}}</td>
+<td>{{u.password}}</td>
+<td>
+  <button (click)="onEditUser(u)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+  <button (click)="onDelete(u)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+
+</td>
+
+
+
+
+</tr>
+</tbody>
+
+</table>
+

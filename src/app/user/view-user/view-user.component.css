@@ -1,0 +1,12 @@
+td,th{
+    border-width: 2px;
+    padding: 5px;
+    width: 10%;
+}
+button{
+    background-color: white;
+    border: none;
+    font-size: larger;
+    margin-left: 10px;
+    
+}

@@ -1,0 +1,25 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "username": "abc",
+      "age": 25,
+      "email": "abc@gmail.com",
+      "password": "abc123"
+    },
+    {
+      "id": "2",
+      "username": "pqrqwwwwkjdk",
+      "age": 25,
+      "email": "pqr@gmailc.om",
+      "password": "pqr123"
+    },
+    {
+      "id": 3,
+      "username": "anu",
+      "age": 24,
+      "email": "anu@gmail.com",
+      "password": "anu123"
+    }
+  ]
+}

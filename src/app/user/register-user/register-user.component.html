@@ -1,0 +1,48 @@
+<!-- <p>register-user works!</p> -->
+<form [formGroup]="registerForm" (ngSubmit)="onsubmit()">
+    <h1 class="text-center mb-4">
+        <i class="fa fa-user-plus" aria-hidden="true"></i>Sigh-Up here</h1>
+<div class="form-outline mb-3"style="display: inline-flex">
+ 
+    <label form="id" class="form-lable" >EnterId :-</label>
+   <input type="number" class="form-control" id="id" formControlName="id">
+
+
+</div><br>
+
+<div class="form-outline mb-3"style="display: inline-flex">
+    <label form="username" class="form-lable" >Username :-</label>
+    <input type="text" class="form-control" id="username" formControlName="username">
+     
+ 
+ </div><br>
+ <div class="form-outline mb-3"style="display: inline-flex">
+    <label form="age" class="form-lable" >Enter Age :-</label>
+    <input type="number" class="form-control" id="age" formControlName="age">
+  
+ 
+ </div><br>
+ 
+ <div class="form-outline mb-3"style="display: inline-flex">
+    <label form="email" class="form-lable" >Enter email :-</label>
+    <input type="text" class="form-control" id="email" formControlName="email">
+     
+ 
+ </div><br>
+
+ <div class="form-outline mb-3" style="display: inline-flex">
+    <label form="password" class="form-lable">Enter password :-</label>
+   <input type="text" class="form-control" id="password" formControlName="password">
+    
+
+</div><br>
+<div class="w-100 text-center mb-5">
+<button class="btn btn-success">Submit</button>
+
+  
+</div>
+ 
+
+
+
+</form>

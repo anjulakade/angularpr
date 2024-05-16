@@ -1,0 +1,26 @@
+<!-- <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button> -->
+<nav class="row w-100  bg-danger m-0" >
+    <h1 class="text-center text-white">Welcome user app<i class="fa fa-user-o" aria-hidden="true"></i></h1>
+</nav>
+<div class="row w-100 m-0 p-1">
+    <div class="col-6  border  border-danger mt-2">
+        <h1>column 1</h1>
+     <app-register-user [userToBeEdit]="editUser"></app-register-user>
+    </div>
+
+
+    <div class="col-6  border  border-danger mt-2">
+        <h1>column 2</h1>
+        <app-view-user  (emmitUser)="receiveEditData($event)"></app-view-user>
+    </div>
+
+</div>
